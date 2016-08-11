@@ -1,0 +1,21 @@
+ 
+<html>   
+    <head>
+        <script src="js/jquery.js"></script>
+        <script src="js/getgameIdName.js"></script>
+        <link rel="stylesheet" href="js/UNODesignCSS.css">
+    </head>  
+    <body>
+      		
+                <form action="http://localhost:8080/UNOServerApp/api/uno/WaitingPlayer" method="post">
+                    
+                    Game ID : 
+                    <input type="hidden" name="GameId" id="GameId">
+                    <span id="ShowGameID"></span><br />
+                    Game Title : 
+                    <span id="Gamename"></span><br />
+                    <button type="submit" name="start">Start Game</button>
+                </form>
+	</body>
+    
+</html>
